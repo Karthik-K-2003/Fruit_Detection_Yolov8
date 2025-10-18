@@ -1,47 +1,43 @@
-# Waste-Detection-Using-yolov8n
+# Fruit-Detection-Using-yolov8n
 
-A waste detection system using **YOLOv8** for image and webcam-based classification.
+A desktop application for **real-time fruit detection** using **YOLOv8** and a **modern Tkinter GUI**.  
+You can detect fruits from your webcam or from uploaded images easily.
 
 ---
 
 ## 🚀 Features
-- Real-time object detection with webcam
-- Image upload and prediction
-- YOLOv8 model integration (`best.pt`, `last.pt`)
-- Organized outputs for predictions
+
+- 🎥 **Live Webcam Detection** – Detect fruits in real-time.
+- 🖼️ **Image Upload Detection** – Analyze static images with the YOLO model.
+- 🧩 **User-Friendly GUI** built using Tkinter and ttk themes.
+- 🌈 **Color-coded bounding boxes** for each fruit class.
+- 🔄 **Refresh and Quit Controls** directly from the app sidebar.
 
 ---
 
 ## 📂 Project Structure
 ``` bash
-WD-yolov8n/
-│── .venv/ # Virtual environment (ignored in git)
-│── assets/ # Static assets (icons, etc.)
-│── image-outputs/ # Stores prediction images
-│ └── predict/
-│── models/ # YOLO model weights
-│ ├── best.pt
-│ └── last.pt
-│── modules/ # Core modules
-│ ├── init.py
-│ ├── uploader.py # Handles image upload
-│ └── web_cam.py # Webcam detection
-│── my_outputs/ # Experiment outputs
+FRUIT_DETECTION/
+│
+├── models/
+│ ├── best.pt # trained YOLOv8 fruit model
+│ └── last.pt # optional backup model
+│
+├── modules/
+│ ├── web_cam.py # webcam-based detection logic
+│ └── uploader.py # image upload detection logic
+│
+├── ui/
+│ └── app_ui.py # Tkinter-based user interface
+│
+├── my_outputs/
 │ ├── exp1/
 │ └── exp12/
-│── ui/ # User Interface code
-│ ├── init.py
-│ └── app_ui.py
-│── utils/ # Helper functions
-│── main.py # Entry point
-│── predict.py # Prediction script
-│── requirements.txt # Python dependencies
-│── .gitignore
-│── README.md
+│
+├── app.py # main launcher
+├── requirements.txt # dependencies list
+└── README.md # project documentation
 ```
-
-
----
 
 ## ⚙️ Installation
 
@@ -49,8 +45,7 @@ Follow these steps to set up the project on any PC:
 
 ### 1. Clone the repository
 ```bash
-https://github.com/manojhp24/Waste-Detection-Using-Yolov8n.git
-cd WD-yolov8n
+https://github.com/Karthik-K-2003/Fruit_Detection_Yolov8.git
 ```
 
 ## Create and activate a virtual environment
