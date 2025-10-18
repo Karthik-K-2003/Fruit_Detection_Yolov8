@@ -48,7 +48,7 @@ Follow these steps to set up the project on any PC:
 https://github.com/Karthik-K-2003/Fruit_Detection_Yolov8.git
 ```
 
-## Create and activate a virtual environment
+## 2. Create and activate a virtual environment
 Create Virtual environment
 ```bash
 python -m venv venv
@@ -63,12 +63,12 @@ venv\Scripts\activate
 source .venv/bin/activate
 ```
 
-### Install dependencies
+### 3. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run the application
+### 4. Run the application
 ```bash
 python main.py
 ```
