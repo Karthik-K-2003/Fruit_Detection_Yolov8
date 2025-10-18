@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# PyCharm / IDE files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# YOLOv8 output folders
+runs/
+my_outputs/
+image-outputs/
+
+
+# Logs
+*.log
+
+# Build / dist (PyInstaller, setup, etc.)
+build/
+dist/
+*.spec
+
+# Requirements lock files
+*.egg-info/
